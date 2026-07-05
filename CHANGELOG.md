@@ -55,6 +55,8 @@ Reference a PR or issue with `(#123)` when one exists. Keep newest entries at th
 
 ### Added
 
+- Light and dark themes that follow your system preference, with a toggle to switch manually.
+- Landing page introducing the product, with clear calls to sign up or sign in.
 - Sign-in and sign-up pages with inline validation, a Google button, and error toasts.
 - shadcn/ui component library for building the interface.
 - Email and password sign-up and sign-in, backed by Better Auth with sessions stored in Postgres.
@@ -64,6 +66,10 @@ Reference a PR or issue with `(#123)` when one exists. Keep newest entries at th
 - Engineering guidelines for commits, branching, secrets, dependencies, and definition of done (ENGINEERING.md).
 - Repo guardrail hook that warns when working on main or committing without a changelog entry.
 - Drizzle ORM with a local Postgres connection, SQL migrations, and `db:*` scripts (generate, migrate, push, studio).
+
+### Changed
+
+- Refreshed the visual design with a violet brand color and a cleaner, more consistent look across pages.
 
 ### Removed
 
