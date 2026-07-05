@@ -58,6 +58,7 @@ Reference a PR or issue with `(#123)` when one exists. Keep newest entries at th
 - Project changelog to track every change made to the codebase.
 - Engineering guidelines for commits, branching, secrets, dependencies, and definition of done (ENGINEERING.md).
 - Repo guardrail hook that warns when working on main or committing without a changelog entry.
+- Drizzle ORM with a local Postgres connection, an example `users` schema, SQL migrations, and `db:*` scripts (generate, migrate, push, studio).
 
 ---
 
