@@ -55,6 +55,8 @@ Reference a PR or issue with `(#123)` when one exists. Keep newest entries at th
 
 ### Added
 
+- Sign-in and sign-up pages with inline validation, a Google button, and error toasts.
+- shadcn/ui component library for building the interface.
 - Email and password sign-up and sign-in, backed by Better Auth with sessions stored in Postgres.
 - Sign in with Google (OAuth), alongside email and password.
 - Redirect for unauthenticated visitors to `/login` when they open a protected `/dashboard` page.
