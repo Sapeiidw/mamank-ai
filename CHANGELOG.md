@@ -55,10 +55,17 @@ Reference a PR or issue with `(#123)` when one exists. Keep newest entries at th
 
 ### Added
 
+- Email and password sign-up and sign-in, backed by Better Auth with sessions stored in Postgres.
+- Sign in with Google (OAuth), alongside email and password.
+- Redirect for unauthenticated visitors to `/login` when they open a protected `/dashboard` page.
 - Project changelog to track every change made to the codebase.
 - Engineering guidelines for commits, branching, secrets, dependencies, and definition of done (ENGINEERING.md).
 - Repo guardrail hook that warns when working on main or committing without a changelog entry.
-- Drizzle ORM with a local Postgres connection, an example `users` schema, SQL migrations, and `db:*` scripts (generate, migrate, push, studio).
+- Drizzle ORM with a local Postgres connection, SQL migrations, and `db:*` scripts (generate, migrate, push, studio).
+
+### Removed
+
+- Example `users` table, replaced by the Better Auth `user`, `session`, `account`, and `verification` tables.
 
 ---
 
